@@ -18,8 +18,6 @@ prompt=ChatPromptTemplate.from_messages(
 
 
     ]
-
-
 )
 model=ChatOpenAI(model="gpt-4o-mini")
 output_parser=StrOutputParser()
